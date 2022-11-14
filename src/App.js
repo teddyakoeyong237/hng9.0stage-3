@@ -7,7 +7,6 @@ function App() {
     <div className="App">
       <Navbar />
       <Homepage />
-      <h2>HNG STAGE 3 TASK</h2>
     </div>
   );
 }

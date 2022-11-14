@@ -7,13 +7,13 @@ function Section2() {
         <section className='hp_places'>
             <h2>Inspiration for your next adventure</h2>
             <div className="all_cards">
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
+                <Card image_url={"images/image1.jpg"}/>
+                <Card image_url={"images/image1.jpg"}/>
+                <Card image_url={"images/image1.jpg"}/>
+                <Card image_url={"images/image1.jpg"}/>
+                <Card image_url={"images/image1.jpg"}/>
+                <Card image_url={"images/image1.jpg"}/>
+                <Card image_url={"images/image1.jpg"}/>
                 <Card />
             </div>
         </section>
