@@ -9,6 +9,9 @@
 }
 .hp_places .all_cards{
     max-width: 1240px;
-    margin: 4px auto;
-    border: 1px solid red;
+    margin: 4px auto 53px;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
