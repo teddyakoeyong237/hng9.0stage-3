@@ -1,7 +1,7 @@
 import React from 'react';
-import './section_1.css';
+import './section1.css';
 
-function Section_1() {
+function Section1() {
     return (
         <>
             <section className='search_place'>
@@ -30,4 +30,4 @@ function Section_1() {
     );
 }
 
-export default Section_1;
+export default Section1;
