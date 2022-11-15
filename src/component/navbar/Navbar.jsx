@@ -9,10 +9,10 @@ export default function Navbar() {
                 <img src="images/colored_metabnb.jpg" alt="logo" />
                 <nav>
                     <ul>
-                        <li><Link to="">Home</Link></li>
-                        <li><Link to="">Place to stay</Link></li>
-                        <li><Link to="">NFTs</Link></li>
-                        <li><Link to="">Community</Link></li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/placetostay">Place to stay</Link></li>
+                        <li><Link to="/nfts">NFTs</Link></li>
+                        <li><Link to="/community">Community</Link></li>
                     </ul>
                 </nav>
                     <button className='connect_wallet'>Connect wallet</button>
