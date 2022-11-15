@@ -1,0 +1,37 @@
+.categories{
+    margin: 85px auto 64px;
+    max-width: 1240px;
+}
+.categories ul{
+    display: flex;
+    gap: 48px;
+    align-items: center;
+    justify-content: flex-start;
+    list-style: none;
+}
+.categories ul li{
+    cursor: pointer;
+}
+.placetostay .all_cards{
+    max-width: 1240px;
+    margin: 4px auto 92px;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.category_menu{
+    padding: 14px 13px;
+    background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+    border: 1px solid #B4B4B4;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin-left: 65px;
+}
+.category_menu span{
+    display: flex;
+    align-items: center;
+}
