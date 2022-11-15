@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './navbar.css';
 import { Link } from 'react-router-dom';
+import Modal from '../modal/Modal';
 
 export default function Navbar() {
+
+    const [openModal, setOpenModal] = useState(false);
+
     return (
             <div className="container">
         <header className='navbar'>
@@ -15,7 +19,13 @@ export default function Navbar() {
                         <li><Link to="/community">Community</Link></li>
                     </ul>
                 </nav>
-                    <button className='connect_wallet'>Connect wallet</button>
+                    <button
+                    onClick={() => {setOpenModal(true)}} 
+                    className='connect_wallet'
+                    >
+                        Connect wallet
+                    </button>
+                    <Modal openState={openModal} onClose={() => {setOpenModal(false)}}/>
             </header>
             </div>
     );
