@@ -67,3 +67,7 @@
 .modal_links > *{
     display: flex;
 }
+.modal_header span, 
+.modal_links{
+    cursor: pointer;
+}

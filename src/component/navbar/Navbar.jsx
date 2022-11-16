@@ -7,6 +7,12 @@ export default function Navbar() {
 
     const [openModal, setOpenModal] = useState(false);
 
+    if(openModal) {
+        document.body.classList.add('active_modal')
+    } else {
+        document.body.classList.remove('active_modal')
+    }
+
     return (
             <div className="container">
         <header className='navbar'>

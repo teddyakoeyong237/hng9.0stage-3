@@ -11,12 +11,14 @@ function Modal({openState, onClose}) {
     <div onClick={onClose} className="modal_overlay">
         
         {/* Creating modal component */}
-        <div className='modal'>
+        <div 
+        onClick={(e) => {e.stopPropagation()}}
+        className='modal'>
             
             {/* Creating the header of the modal component */}
             <div className="modal_header">
                 <h3>Connect Wallet</h3>
-                <span>
+                <span onClick={onClose} >
                     <img src="images/modalclose.jpg" alt="Close modal" />
                 </span>
             </div>
