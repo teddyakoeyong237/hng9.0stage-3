@@ -93,9 +93,24 @@
     }
 }
 @media screen and (max-width: 480px){
+    .footer{
+        padding: 3.5% 7%;
+    }
     .footer_col{
         width: 100%;
         margin-bottom: 10px;
         /* justify-content: center; */
+    }
+    .footer_col h5{
+        margin: 0px 0px 1rem;
+    }
+    .footer_col ul li {
+        margin: 0px 0px 0px;
+    }
+    .socialmedia{
+        gap: 32px;
+    }
+    .socialmedia_icons {
+        margin: 0px 0px 0px;
     }
 }

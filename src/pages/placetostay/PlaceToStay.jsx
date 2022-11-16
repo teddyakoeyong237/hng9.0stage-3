@@ -7,14 +7,14 @@ function PlaceToStay() {
         <div className='placetostay'>
             <div className="categories">
                 <ul>
-                    <li>Restaurant</li>
-                    <li>Cottage</li>
-                    <li>Castle</li>
-                    <li>fantast city</li>
-                    <li>beach</li>
-                    <li>Carbins</li>
-                    <li>Off-grid</li>
-                    <li>Farm</li>
+                    <li className='category1'>Restaurant</li>
+                    <li className='category2'>Cottage</li>
+                    <li className='category3'>Castle</li>
+                    <li className='category4'>fantast city</li>
+                    <li className='category5'>beach</li>
+                    <li className='category6'>Carbins</li>
+                    <li className='category7'>Off-grid</li>
+                    <li className='category8'>Farm</li>
                     <li className='category_menu'>Location<span><img src="images/setting.jpg" alt="" /></span></li>
                 </ul>
             </div>

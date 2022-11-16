@@ -72,6 +72,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    min-width: 420px;
+}
+.sp_images img{
+    width: 100%;
+    display: flex;
+    align-items: center;
 }
 .logo_banner{
     display: flex;
@@ -89,9 +95,9 @@
         gap: 12px;
         margin: 8% 0px 32px;
     }
-    .search_place > div{
+    /* .search_place > div{
         max-width: 100%;
-    }
+    } */
     .sp_content h2,
     .sp_content p{
         margin: 0px 0px 1.5rem;
@@ -110,7 +116,20 @@
     .logo_banner img{
         padding: 10px;
     }
+    .sp_content{
+        max-width: 90%;
+    }
+    .sp_content h2{
+        line-height: 54px;
+    }
+    .sp_images{
+            min-width: 380px;
+            max-width: 720px;
+            margin: auto;
+        }
 }
 @media screen and (max-width: 480px){
-    
+    .sp_images{
+        min-width: 100%;
+    }
 }
