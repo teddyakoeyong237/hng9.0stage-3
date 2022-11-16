@@ -1,9 +1,9 @@
 .search_place{
     display: flex;
-    margin: 125px 0px 67px;
+    margin: 8% 0px 67px;
     justify-content: space-between;
-    padding: 0px 100px 0px 100px;
-    gap: 100px;
+    padding: 0px 7% 0px 7%;
+    gap: 14px;
 }
 .sp_content{
     font-style: normal;
@@ -21,14 +21,14 @@
     font-size: 3.5rem;
     line-height: 78px;
     letter-spacing: -0.02em;
-    margin: 0px 0px 48px;
+    margin: 0px 0px 3rem;
 }
 .sp_content p {
     font-style: normal;
     font-weight: 400;
     font-size: 1.5rem;
     line-height: 35px;
-    margin: 0px 0px 48px;
+    margin: 0px 0px 3rem;
 }
 .sp_content span{
     color: #A02279;
@@ -78,7 +78,39 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 100px;
+    padding: 10px 7%;
     background: var(--theme-color);
     margin: 0px 0px 19px;
+}
+@media screen and (max-width: 1200px){
+    .search_place {
+        flex-direction: column;
+        padding: 0px 4% 0px 4%;
+        gap: 12px;
+        margin: 8% 0px 32px;
+    }
+    .search_place > div{
+        max-width: 100%;
+    }
+    .sp_content h2,
+    .sp_content p{
+        margin: 0px 0px 1.5rem;
+    }
+    .logo_banner{
+        padding: 10px 5%;
+    }
+}
+@media screen and (max-width: 1024px){
+    
+}
+@media screen and (max-width: 768px){
+    .logo_banner{
+        flex-direction: column;
+    }
+    .logo_banner img{
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 480px){
+    
 }

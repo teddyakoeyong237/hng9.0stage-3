@@ -3,8 +3,8 @@
     display: flex;
     justify-content: space-between;
     gap: 5px;
-    margin: 100px 0px 0px;
-    padding: 0px 100px;
+    margin: 7% 0px 0px;
+    padding: 0px 7%;
 }
 .nft_content{
     margin: auto 0px;
@@ -19,11 +19,10 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    /* text-fill-color: transparent; */
     margin: 0px 0px 35px;
 }
 .nft_content p{
-    margin: 0px 0px 48px;
+    margin: 0px 0px 3rem;
     font-style: normal;
     font-weight: 400;
     font-size: 1.125rem;
@@ -31,8 +30,6 @@
     background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip: text;
-    /* text-fill-color: transparent; */
 }
 .nft_button{
     font-style: normal;
@@ -47,7 +44,49 @@
     border: none;
     cursor: pointer;
 }
+.nft_images{
+    min-width: 420px;
+}
 .nft_images img{
-    margin: 100px 0;
+    margin: 7% 0px;
     width: 100%;
+}
+@media screen and (max-width: 1200px){
+    
+}
+@media screen and (max-width: 1024px){
+    .nft_info{
+        padding: 0px 4%;
+    }    
+}
+@media screen and (max-width: 840px){
+    .nft_info{
+        flex-direction: column;
+    }
+    .nft_content{
+        max-width: 90%;
+        margin: 2rem 0px 0px;
+    }
+    .nft_content h2{
+        margin: 0px 0px 20px;
+    } 
+    .nft_content p{
+        margin: 0px 0px 1.5rem;
+    }
+    .nft_images{
+        margin: auto;
+    } 
+    .nft_images img {
+         margin: 2% 0px; 
+        width: 90%;
+    }
+}
+@media screen and (max-width: 768px){
+    /* .nft_images{
+        max-width: 410px;
+        margin: auto;
+    } */
+}
+@media screen and (max-width: 480px){
+    
 }
