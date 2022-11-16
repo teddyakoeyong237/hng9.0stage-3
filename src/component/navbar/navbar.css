@@ -21,6 +21,9 @@ nav ul{
 nav ul li a{
     color: #434343;
 }
+nav ul li a:hover{
+    color: #A02279;
+}
 .connect_wallet{
     color: #ffffff;
     line-height: 20px;

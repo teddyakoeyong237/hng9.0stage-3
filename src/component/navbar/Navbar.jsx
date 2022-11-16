@@ -14,7 +14,7 @@ export default function Navbar() {
     }
 
     return (
-            <div className="container">
+
         <header className='navbar'>
                 <img src="images/colored_metabnb.jpg" alt="logo" />
                 <nav>
@@ -33,6 +33,6 @@ export default function Navbar() {
                     </button>
                     <Modal openState={openModal} onClose={() => {setOpenModal(false)}}/>
             </header>
-            </div>
+
     );
 }

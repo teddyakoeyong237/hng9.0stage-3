@@ -10,7 +10,7 @@
 }
 .modal{
     position: absolute;
-    max-width: 600px;
+    width: 600px;
     height: 326px;
     left: 50%;
     top: 50%;
