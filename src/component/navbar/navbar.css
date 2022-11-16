@@ -11,6 +11,7 @@
 }
 nav ul{
     display: flex;
+    align-items: center;
     list-style: none;
     gap: 48px;
     font-size: 20px;
@@ -35,4 +36,57 @@ nav ul li a:hover{
     padding: 15px 26px 13px 27px;
     border: none;
     cursor: pointer;
+}
+.nav-btn{
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    opacity: 0;
+    visibility: hidden;
+    color: grey;
+    font-size: 1.8rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .nav-btn{
+        visibility: visible;
+        opacity: 1;
+    }
+
+    nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color: rgba(0,0,0, 0.9);
+        transition: 1s;
+        transform: translateY(-100vh);
+        flex-direction: column;
+    }
+    nav ul {
+        display: flex;align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+    }
+    nav ul li a{
+        color: white;
+        font-size: 1.5rem;
+    }
+    header .responsive_nav{
+        transform: none;   
+    }
+    .nav-close-btn{
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+
 }
